@@ -1,0 +1,33 @@
+<% layout('/layouts/boilerplate') -%>
+<body>
+    <div class="container my-5">
+        <h1 class="mb-4 text-center">Edit Your Listing</h1>
+        <form action="/listings/<%= listing._id %>?_method=PUT" method="POST" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="title" class="form-label">Title:</label>
+                <input type="text" id="title" name="listing[title]" value="<%= listing.title %>" class="form-control" required>
+                <div class="invalid-feedback">
+                    Please provide a title.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Description:</label>
+                <input type="text" id="description" name="listing[description]" value="<%= listing.description %>" class="form-control" required>
+                <div class="invalid-feedback">
+                    Please provide a description.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="image" class="form-label">Image URL:</label>
+                <input type="text" id="image" name="listing[image][url]" value="<%= listing.image.urln %>" class="form-control" required>
+                <div class="invalid-feedback">
+                    Please provide an image URL.
+                </div>
+            </div>
+            
+            
+           
+            <button type="submit" class="btn btn-primary">Edit Listing</button>
+        </form>
+    </div>
+</body>

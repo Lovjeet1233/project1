@@ -1,0 +1,23 @@
+<% layout('/layouts/boilerplate') -%>
+<body>
+    <div class="container my-5">
+        <h2 class="mb-4 text-center">Listing Details</h2>
+        <div class="card shadow-sm p-4 mb-4 bg-white rounded">
+            <img src="<%= listing.image.url %>" class="card-img-top rounded mb-3" alt="Listing Image">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>Title:</strong> <%= listing.title %></li>
+                <li class="list-group-item"><strong>Admin:</strong> <%= listing.owner.username %></li>
+                <li class="list-group-item"><strong>Description:</strong> <%= listing.description %></li>            
+                <li class="list-group-item"><strong>ID:</strong> <%= listing._id %></li>
+            </ul>
+        </div>
+        <% if(currentUser && currentUser._id.equals(listing.owner._id)){ %>
+        <div class="text-center">
+            <a href="/listings/<%= listing._id %>/edit" class="btn btn-outline-primary btn-lg mx-2">Edit Listing</a>
+            <form action="/listings/<%= listing._id %>?_method=DELETE" method="POST" class="d-inline-block">
+                <button type="submit" class="btn btn-outline-danger btn-lg mx-2">Delete Listing</button>
+            </form>
+        </div>
+        <% } %>
+    </div>
+</body>

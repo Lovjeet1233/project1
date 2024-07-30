@@ -1,0 +1,521 @@
+/* General Styles */
+body {
+    font-family: 'Airbnb Cereal App', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #484848;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #484848;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    color: #ff5a5f;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-brand i {
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    border-color: #ff5a5f;
+}
+
+.navbar-toggler-icon {
+    background-color: #ff5a5f;
+}
+
+.navbar-nav .nav-link {
+    color: #484848 !important;
+    font-size: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff5a5f !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff5a5f !important;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f7f7f7;
+    padding: 2rem;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+footer .f-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer .f-info-socials {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .f-info-socials i {
+    font-size: 2rem; /* Increased icon size */
+    color: #484848;
+    transition: color 0.3s;
+}
+
+footer .f-info-socials i:hover {
+    color: #ff5a5f;
+}
+
+footer .f-info-links {
+    margin-top: 1rem;
+}
+
+footer .f-info-links a {
+    color: #484848;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+footer .f-info-links a:hover {
+    color: #ff5a5f;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: #484848;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #ff5a5f;
+    border-color: #ff5a5f;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e14d50;
+    border-color: #e14d50;
+}
+
+/* Hover effect */
+.listing-card {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.3s;
+}
+
+.listing-card:hover .card {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.listing-card:hover {
+    opacity: 1;
+}
+
+/* style.css */
+
+/* Basic Airbnb Theme Styling */
+body {
+    font-family: 'Circular Std', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #484848;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FF5A5F;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #484848;
+}
+
+input, textarea {
+    font-size: 1rem;
+    color: #484848;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+button {
+    font-size: 1rem;
+    background-color: #FF5A5F;
+    border: none;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e04848;
+}
+
+/* Form Group Styling */
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+/* General Styles */
+body {
+    font-family: 'Airbnb Cereal App', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #484848;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #484848;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    color: #ff5a5f;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-brand i {
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    border-color: #ff5a5f;
+}
+
+.navbar-toggler-icon {
+    background-color: #ff5a5f;
+}
+
+.navbar-nav .nav-link {
+    color: #484848 !important;
+    font-size: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff5a5f !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff5a5f !important;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f7f7f7;
+    padding: 2rem;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+footer .f-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer .f-info-socials {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .f-info-socials i {
+    font-size: 2rem; /* Increased icon size */
+    color: #484848;
+    transition: color 0.3s;
+}
+
+footer .f-info-socials i:hover {
+    color: #ff5a5f;
+}
+
+footer .f-info-links {
+    margin-top: 1rem;
+}
+
+footer .f-info-links a {
+    color: #484848;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+footer .f-info-links a:hover {
+    color: #ff5a5f;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #ff5a5f;
+    border-color: #ff5a5f;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e14d50;
+    border-color: #e14d50;
+}
+
+/* Listing Card Hover Effect */
+.listing-card {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.3s;
+}
+
+.listing-card:hover .card {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.listing-card:hover {
+    opacity: 1;
+}
+
+.listing-card:not(:hover) {
+    opacity: 0.7;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #484848;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #e5e5e5;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #ff5a5f;
+    box-shadow: 0 0 5px rgba(255, 90, 95, 0.5);
+}
+
+button[type="submit"] {
+    background-color: #ff5a5f;
+    border-color: #ff5a5f;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e14d50;
+    border-color: #e14d50;
+}
+
+/* Validation Styles */
+.needs-validation .form-control:invalid {
+    border-color: #dc3545;
+}
+
+/* Airbnb Theme Styles */
+body {
+    font-family: 'Airbnb Cereal App', sans-serif;
+    background-color: #f7f7f7;
+}
+
+h2 {
+    font-weight: bold;
+    color: #484848;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    border: none;
+    padding: 1rem 1.5rem;
+}
+
+.list-group-item strong {
+    color: #484848;
+    font-weight: 600;
+}
+
+.btn-outline-primary, .btn-outline-danger {
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+}
+
+.btn-outline-primary {
+    color: #ff5a5f;
+    border-color: #ff5a5f;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btn-outline-danger {
+    color: #ff5a5f;
+    border-color: #ff5a5f;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
